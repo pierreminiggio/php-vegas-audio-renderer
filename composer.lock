@@ -1,0 +1,91 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "7cb18f85e4f0890a74be17c91cd1d2de",
+    "packages": [
+        {
+            "name": "pierreminiggio/vegas-pro-17-script-portal-dll",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pierreminiggio/vegas-pro-17-script-portal-dll.git",
+                "reference": "23657f82411f726d0be52f4ca58bfd888e9a8d1c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pierreminiggio/vegas-pro-17-script-portal-dll/zipball/23657f82411f726d0be52f4ca58bfd888e9a8d1c",
+                "reference": "23657f82411f726d0be52f4ca58bfd888e9a8d1c",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Pierre MINIGGIO",
+                    "email": "pierre@miniggiodev.fr"
+                }
+            ],
+            "description": "Simply brings the dll to your project",
+            "support": {
+                "issues": "https://github.com/pierreminiggio/vegas-pro-17-script-portal-dll/issues",
+                "source": "https://github.com/pierreminiggio/vegas-pro-17-script-portal-dll/tree/1.0.1"
+            },
+            "time": "2021-01-12T21:32:32+00:00"
+        },
+        {
+            "name": "pierreminiggio/vegas-renderer",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pierreminiggio/php-vegas-renderer.git",
+                "reference": "5b8d4d8b9bc8a3ddbb0eb6497aa0b52d551bc631"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pierreminiggio/php-vegas-renderer/zipball/5b8d4d8b9bc8a3ddbb0eb6497aa0b52d551bc631",
+                "reference": "5b8d4d8b9bc8a3ddbb0eb6497aa0b52d551bc631",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2 || ^8.0",
+                "pierreminiggio/vegas-pro-17-script-portal-dll": "^1.0"
+            },
+            "require-dev": {
+                "illuminate/support": "^8.22"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PierreMiniggio\\VegasRenderer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Pierre MINIGGIO",
+                    "email": "pierre@miniggiodev.fr"
+                }
+            ],
+            "description": "Vegas Renderer",
+            "support": {
+                "issues": "https://github.com/pierreminiggio/php-vegas-renderer/issues",
+                "source": "https://github.com/pierreminiggio/php-vegas-renderer/tree/2.0.0"
+            },
+            "time": "2021-01-13T18:20:23+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^7.2 || ^8.0"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}
